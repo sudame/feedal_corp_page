@@ -1,0 +1,23 @@
+{
+  "name": "corp_page",
+  "version": "1.0.0",
+  "description": "My delightful Nuxt.js project",
+  "author": "wakkihaya",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.11.2",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.0"
+  },
+  "devDependencies": {
+    "package": "^1.0.1"
+  }
+}

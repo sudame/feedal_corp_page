@@ -1,0 +1,34 @@
+$main_color: #E14500;
+$nav_fontsize: 3vh;
+
+.container{
+  //display:flex;
+}
+
+header{
+  display: flex;
+  //flex-direction: row;
+  justify-content: space-between;
+  height:10vh;
+  width:100%;
+  background: $main_color;
+  position:fixed;
+  img{
+    height:100%;
+  }
+  .navigation{
+    height:100%;
+    line-height: 100%;
+    align-items: center;
+    display:flex;
+    li{
+      margin-left:30px;
+      line-height:100%;
+      list-style-type: none;
+      color:#fff;
+
+      font-size:$nav_fontsize;
+      margin-right:1em;
+    }
+  }
+}
