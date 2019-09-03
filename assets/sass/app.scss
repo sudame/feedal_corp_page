@@ -1,6 +1,14 @@
 $main_color: #E14500;
 $nav_fontsize: 20px;
 $top_fontsize: 33px;
+$title_fontsize: 35px;
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
 
 //header
 header{
@@ -30,14 +38,9 @@ header{
   }
 }
 
-.container{
-  display:flex;
-  flex-direction: column;
-}
-
 
 //top画面(開いた画面)
-.top{
+#top{
   position:relative;
   margin-top:10vh;
   width:100%;
@@ -62,4 +65,13 @@ header{
     text-align: center;
     font-size:$top_fontsize;
   }
+}
+
+.title{
+  font-size:$title_fontsize;
+
+}
+
+#mission{
+
 }

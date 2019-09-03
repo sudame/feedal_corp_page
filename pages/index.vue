@@ -2,27 +2,37 @@
   <html>
   <body>
   <div class="container">
-      <header>
+
+<!--    header-->
+    <header>
         <img src="feedal_logo.jpg">
         <nav>
           <ul class="navigation">
             <li>ミッション</li>
-              <li>サービス</li>
-              <li>ニュース</li>
-              <li>会社情報</li>
-              <li>お問い合わせ</li>
+            <li>サービス</li>
+            <li>ニュース</li>
+            <li>会社情報</li>
+            <li>お問い合わせ</li>
           </ul>
         </nav>
-      </header>
+    </header>
 
+<!--top画面(一番初めに表示される画面)-->
+    <div id="top">
+      <div class="bg"></div>
+      <p>
+        だれもが、<br><br><br>
+        "どんな情報でも”、”気軽に”、”すぐに”<br><br><br>
+        収集できる世界へ
+      </p>
+    </div>
 
+<!--    mission 画面-->
+    <div id="mission">
+      <div class="title">Mission</div>
 
-        <div class="top">
-          <div class="bg"></div>
-            <p>だれもが、<br><br><br>
-            "どんな情報でも”、”気軽に”、”すぐに”<br><br><br>
-            収集できる世界へ</p>
-        </div>
+    </div>
+
   </div>
   </body>
   </html>
