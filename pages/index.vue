@@ -115,6 +115,16 @@
         </ul>
     </div>
 
+<!--    footer画面-->
+  <footer>
+    <div>
+     <p>@ 2019 Feedal Inc.<br><br></p>
+     <p>このwebページではGoogle Analyticsを使用してアクセス情報を収集しています。<br>
+      Google Analyticsについては
+       <a href="https://policies.google.com/technologies/partner-sites?hl=ja">こちら</a> をご覧ください。</p>
+    </div>
+  </footer>
+
   </div>
 </template>
 
