@@ -76,7 +76,15 @@
 <!--    news画面-->
     <div id="news">
       <div class="title">News</div>
-
+       <table border="0" v-for = "event in news_events" v-bind:key="event.date" id="news_event">
+         <tbody>
+        <tr>
+          <td class="td1">{{event.date}}</td>
+          <td class="td2" style="white-space:pre-line">{{event.content}}
+          <a :href="event.atag">{{event.atag_title}}</a> </td>
+        </tr>
+        </tbody>
+      </table>
     </div>
 
   </div>
@@ -86,12 +94,18 @@
 
 
 <script>
-import Logo from '~/components/Logo.vue'
+  import Vue from 'vue';
 
 export default {
-  components: {
-    Logo
-  }
+    data(){
+      return{
+        // newsのデータ
+        news_events: [
+            {date:'2019/07/15',content:'Feedal Meetup & LT大会 in Tsukuba #2 を行いました!',atag:'https://feedal.com/events/20190715/',atag_title:'特設ページはこちら'},
+            {date:'2019/06/16',content:'Feedal Meetup in Tsukuba #1 を行いました!',atag:'https://twitter.com/feedal_inc/status/1140259783322136578?s=20',atag_title:'詳しくはこちら'}
+        ]
+      }
+    }
 }
 </script>
 
