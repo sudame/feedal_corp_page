@@ -105,10 +105,13 @@
 <!--    contact画面-->
     <div id="contact">
       <div class="title">Contact</div>
-      <p>Mail: corp@feedal.com </p>
+      <p>
+        弊社サービスのご利用に関するお問い合わせございましたら、お気軽にご連絡ください。<br><br>
+        Mail: corp@feedal.com
+      </p>
         <ul class="sns">
-          <li><a href=""> <i class="fab fa-twitter-square fa-3x"></i></a></li>
-          <li><a href=""> <i class="fab fa-facebook-square fa-3x"></i></a></li>
+          <li><a href=""> <i class="fab fa-twitter-square fa-4x"></i></a></li>
+          <li><a href=""> <i class="fab fa-facebook-square fa-4x"></i></a></li>
         </ul>
     </div>
 

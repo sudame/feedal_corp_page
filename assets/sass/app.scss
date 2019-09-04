@@ -196,14 +196,17 @@ header{
     text-align: center;
   }
   .sns{
+    margin:$margin_top_main auto;
     width:50%;
-    margin:0 auto;
+    text-align: center;
     li{
       text-align: center;
       list-style-type: none;
-      float:left;
-      width:25%;
+      padding: 0 5vw;
+      display: inline-block;
       a{
+        text-decoration: none;
+        color:#000;
         width:100%;
         height:100%;
       }
