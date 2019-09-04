@@ -1,8 +1,6 @@
 <template>
-  <html>
-  <body>
   <div class="container">
-
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 <!--    header-->
     <header>
         <img src="feedal_logo.jpg">
@@ -90,8 +88,9 @@
 <!--    company画面-->
     <div id="company">
       <div class="title">Company</div>
-        <p class="company_topic">社名</p>
-        <p class="company_content">株式会社Feedal (英語名: Feedal Inc)</p>
+
+      <p class="company_topic">社名</p>
+      <p class="company_content">株式会社Feedal (英語名: Feedal Inc)</p>
       <p class="company_topic">代表者</p>
       <p class="company_content">代表取締役　　和木勇人</p>
       <p class="company_topic">本所所在地</p>
@@ -103,9 +102,17 @@
       <p class="company_content">「Feedal」の開発・運営</p>
     </div>
 
+<!--    contact画面-->
+    <div id="contact">
+      <div class="title">Contact</div>
+      <p>Mail: corp@feedal.com </p>
+        <ul class="sns">
+          <li><a href=""> <i class="fab fa-twitter-square fa-3x"></i></a></li>
+          <li><a href=""> <i class="fab fa-facebook-square fa-3x"></i></a></li>
+        </ul>
+    </div>
+
   </div>
-  </body>
-  </html>
 </template>
 
 

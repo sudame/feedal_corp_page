@@ -187,3 +187,26 @@ header{
     text-align:center;
   }
 }
+
+
+//contact
+#contact{
+  p{
+    margin-top:$margin_top_main;
+    text-align: center;
+  }
+  .sns{
+    width:50%;
+    margin:0 auto;
+    li{
+      text-align: center;
+      list-style-type: none;
+      float:left;
+      width:25%;
+      a{
+        width:100%;
+        height:100%;
+      }
+    }
+  }
+}
