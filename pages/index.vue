@@ -87,6 +87,22 @@
       </table>
     </div>
 
+<!--    company画面-->
+    <div id="company">
+      <div class="title">Company</div>
+        <p class="company_topic">社名</p>
+        <p class="company_content">株式会社Feedal (英語名: Feedal Inc)</p>
+      <p class="company_topic">代表者</p>
+      <p class="company_content">代表取締役　　和木勇人</p>
+      <p class="company_topic">本所所在地</p>
+      <p class="company_content">茨城県つくば市天久保3丁目21-3 星谷ビル2-A
+      </p>
+      <p class="company_topic">設立</p>
+      <p class="company_content">2019年7月26日</p>
+      <p class="company_topic">事業内容</p>
+      <p class="company_content">「Feedal」の開発・運営</p>
+    </div>
+
   </div>
   </body>
   </html>
