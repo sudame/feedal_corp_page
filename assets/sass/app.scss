@@ -1,7 +1,8 @@
 $main_color: #E14500;
 $nav_fontsize: 20px;
-$top_fontsize: 33px;
-$title_fontsize: 35px;
+$heading_fontsize: 33px;
+$content_title_fontsize: 35px;
+$content_fontsize:16px;
 
 
 .container{
@@ -13,7 +14,7 @@ $title_fontsize: 35px;
 //header
 header{
   display: flex;
-  //flex-direction: row;
+  z-index:10;
   justify-content: space-between;
   height:10vh;
   width:100%;
@@ -63,15 +64,43 @@ header{
     right:50%;
     transform: translate(50%, -50%);
     text-align: center;
-    font-size:$top_fontsize;
+    font-size:$heading_fontsize;
   }
 }
 
+
+//(ミッション、ニュースなどの)タイトルに共通する設定
 .title{
-  font-size:$title_fontsize;
-
+  font-size:$content_title_fontsize;
+  color:$main_color;
+  margin-left:15vw;
+  margin-top:5vw;
+  text-decoration: underline;
 }
 
+
+//mission
 #mission{
-
+  .flexbox{
+    margin-top:5vw;
+    display:flex;
+    flex-direction: row;
+    img{
+      margin-left:15vw;
+      width:30%;
+    }
+    #mission_title{
+      position:relative;
+      margin:auto;
+      width:50%;
+      font-size:$heading-fontsize;
+      text-align:center;
+    }
+  }
+  .content_mission{
+    text-align:center;
+    font-size:$content_fontsize;
+    margin-top:5vw;
+  }
 }
+
