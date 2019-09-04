@@ -6,11 +6,11 @@
         <img src="feedal_logo.jpg">
         <nav>
           <ul class="navigation">
-            <li>ミッション</li>
-            <li>サービス</li>
-            <li>ニュース</li>
-            <li>会社情報</li>
-            <li>お問い合わせ</li>
+            <li><a href="#mission">ミッション</a></li>
+            <li><a href="#service">サービス</a></li>
+            <li><a href="#news">ニュース</a></li>
+            <li><a href="#company">会社情報</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
           </ul>
         </nav>
     </header>
