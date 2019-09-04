@@ -97,10 +97,42 @@ header{
       text-align:center;
     }
   }
-  .content_mission{
-    text-align:center;
-    font-size:$content_fontsize;
-    margin-top:5vw;
-  }
 }
 
+//mission,serviceのコンテンツ
+.content{
+  text-align:center;
+  font-size:$content_fontsize;
+  margin-top:5vw;
+}
+
+
+//service
+#service{
+  .image{
+    margin-top:5vw;
+    width:100%;
+    img{
+      display:block;
+      margin:auto;
+      width:15%;
+    }
+  }
+  #service_title{
+    font-size:$heading_fontsize;
+    text-align:center;
+    margin-top:5vw;
+  }
+  .detail{
+    margin-top:5vw;
+    text-align:center;
+    a{
+      padding:10px 30px;
+      font-weight: bold;
+      color:#fff;
+      text-decoration:none;
+      background:$main_color;
+      border-radius: 12px;
+    }
+  }
+}

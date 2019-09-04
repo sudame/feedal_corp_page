@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      <div class="content_mission">
+      <div class="content">
         <p>情報技術が年々発展していくに伴い、世界に存在する情報量は莫大なものになり、<br>
         エンジニアが学ぶべきことはそれに比例して多くなっています。<br><br>
         -- 混沌とする情報から自分の欲しい情報だけを手に入れることが難しい --<br><br>
@@ -56,6 +56,27 @@
 <!--    service 画面-->
     <div id="service">
       <div class="title">Service</div>
+      <div class="image">
+        <img src="feedal_service.png">
+      </div>
+      <div id="service_title">Feedal</div>
+      <div class="content">
+        Feedal は、<br>
+        あらゆるテクノロジーニュースをシェアし、<br>
+        カテゴリごとにキャッチできるサービス<br>
+        です。<br><br>
+        Feedal を使えば、<br>
+        自分の興味のあるIT分野のトレンド情報を毎日watchできます。<br>
+        人から、常に最新で有意義な情報を得ることでエンジニアのあなたのインプットを充実させます。
+      </div>
+
+      <div class="detail"><a href="https://feedal.com"> 詳しく見る</a></div>
+    </div>
+
+<!--    news画面-->
+    <div id="news">
+      <div class="title">News</div>
+
     </div>
 
   </div>
