@@ -4,8 +4,17 @@
 <!--    header-->
     <header>
         <img src="feedal_logo.jpg">
-        <nav>
-          <ul class="navigation">
+
+<!--      ハンバーガーメニー-->
+      <div class="header__menu__line" @click="naviOpen" :class="{'is-active': active}">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+<!--      PC用のナビ header に含める-->
+        <nav class="pc_nav">
+          <ul>
             <li><a href="#mission">ミッション</a></li>
             <li><a href="#service">サービス</a></li>
             <li><a href="#news">ニュース</a></li>
@@ -14,6 +23,19 @@
           </ul>
         </nav>
     </header>
+
+<!--    スマホ用のナビ headerに含めない-->
+    <transition name="navi">
+      <nav class="phone_nav" v-show="navi">
+        <ul>
+          <li><a href="#mission" @click="naviOpen">ミッション</a></li>
+          <li><a href="#service" @click="naviOpen">サービス</a></li>
+          <li><a href="#news" @click="naviOpen">ニュース</a></li>
+          <li><a href="#company" @click="naviOpen">会社情報</a></li>
+          <li><a href="#contact" @click="naviOpen">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </transition>
 
 <!--top画面(一番初めに表示される画面)-->
     <div id="top">
@@ -139,8 +161,17 @@ export default {
         news_events: [
             {date:'2019/07/15',content:'Feedal Meetup & LT大会 in Tsukuba #2 を行いました!',atag:'https://feedal.com/events/20190715/',atag_title:'特設ページはこちら'},
             {date:'2019/06/16',content:'Feedal Meetup in Tsukuba #1 を行いました!',atag:'https://twitter.com/feedal_inc/status/1140259783322136578?s=20',atag_title:'詳しくはこちら'}
-        ]
+        ],
+          active:false,
+          navi:false
       }
+    },
+    methods:{
+        //ハンバーガーメニューが押されたときの挙動
+      naviOpen:function () {
+          this.active = !this.active;
+          this.navi = !this.navi;
+      },
     }
 }
 </script>
