@@ -11,7 +11,7 @@ $content_fontsize_phone:15px;
 $footer_fontsize: 15px;
 $footer_fontsize_phone: 11px;
 $margin_top_main:5vw;
-$margin_top_phone: 5vh;
+$margin_top_phone: 8vh;
 
 
 .container{
@@ -118,7 +118,7 @@ header{
 
 //ハンバーガーメニューのnavの実装 (スマホ,タブレット画面)
 @media only screen and (max-width: 768px) {
-  .navi-enter-active, .navi-leave-active{
+  .navi-enter-active{
     transform: translate(0px, 0px);
     transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
   }
@@ -184,7 +184,7 @@ header{
   //top画面　スマホ対応
   @media only screen and (max-width: 480px){
       height:40vh;
-      margin-top:7vh;
+      margin-top:8vh;
       p{
         font-size:$heading_fontsize_phone;
         font-weight:bold;
