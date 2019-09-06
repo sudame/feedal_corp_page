@@ -12,8 +12,6 @@ $footer_fontsize: 15px;
 $footer_fontsize_phone: 11px;
 $margin_top_main:5vw;
 $margin_top_phone: 5vh;
-$nav_fontfamily : "Yu Gothic UI";
-$main_fontfamily:"Yu Gothic UI Semibold";
 
 
 .container{
@@ -41,7 +39,6 @@ header{
       display:none;
     }
     ul {
-      font-family: $nav_fontfamily;
       height: 100%;
       line-height: 100%;
       align-items: center;
