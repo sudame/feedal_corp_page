@@ -2,6 +2,7 @@
 
 $main_color: #E14500;
 $nav_fontsize: 20px;
+$nav_fontsize_phone:18px;
 $heading_fontsize: 33px;
 $heading_fontsize_phone:18px;
 $content_title_fontsize: 37px;
@@ -137,7 +138,7 @@ header{
       li {
         background:$main_color;
         border-top:solid 1px #fff;
-        font-size:$nav_fontsize;
+        font-size:$nav_fontsize_phone;
         height:8vh;
         a{
           display:block;
