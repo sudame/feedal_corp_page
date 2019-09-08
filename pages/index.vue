@@ -142,7 +142,8 @@
      <p>@ 2019 Feedal Inc.<br><br></p>
      <p>このwebページではGoogle Analyticsを使用してアクセス情報を収集しています。<br>
       Google Analyticsについては
-       <a href="https://policies.google.com/technologies/partner-sites?hl=ja">こちら</a> をご覧ください。</p>
+       <a href="https://policies.google.com/technologies/partner-sites?hl=ja">こちら</a> をご覧ください。<br><br></p>
+      <p><a href="privacypolicy.pdf">プライバシーポリシー</a>    <a href="feedal_rule.pdf">利用規約</a> </p>
     </div>
   </footer>
 
