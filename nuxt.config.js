@@ -18,7 +18,7 @@ export default {
   //router
   router:  {
     base: '/feedal_corp_page/'
-  }
+  },
   /*
   ** Customize the progress-bar color
   */
