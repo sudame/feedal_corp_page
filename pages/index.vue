@@ -51,7 +51,7 @@
     <div id="mission">
       <div class="title">Mission</div>
       <div class ="flexbox">
-        <img src="feedal_mission.jpg">
+        <img src="/feedal_mission.jpg">
         <div id="mission_title">
           エンジニアの <br>
             インプットに <br>
