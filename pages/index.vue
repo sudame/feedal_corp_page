@@ -3,7 +3,7 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 <!--    header-->
     <header>
-        <img src="feedal_logo.jpg">
+        <img src="/feedal_logo.jpg">
 
 <!--      ハンバーガーメニー-->
       <div class="header__menu__line" @click="naviOpen" :class="{'is-active': active}">
@@ -76,7 +76,7 @@
     <div id="service">
       <div class="title">Service</div>
       <div class="image">
-        <img src="feedal_service.png">
+        <img src="/feedal_service.png">
       </div>
       <div id="service_title">Feedal</div>
       <div class="content">
