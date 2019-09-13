@@ -12,13 +12,15 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/feedal_corp_page/favicon.ico' }
+     // { rel: 'icon', type: 'image/x-icon', href: '/feedal_corp_page/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+
     ]
   },
   //router
-  router:  {
-    base: '/feedal_corp_page/'
-  },
+  // router:  {
+  //   base: '/feedal_corp_page/'
+  // },
   /*
   ** Customize the progress-bar color
   */
