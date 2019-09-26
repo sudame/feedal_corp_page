@@ -16,7 +16,12 @@ export default {
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/feedal_corp_page/favicon.ico' }
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        href:
+          'https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap',
+        rel: 'stylesheet'
+      }
     ]
   },
   //router
